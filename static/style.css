@@ -110,7 +110,7 @@ code {
     background-color: green;
 }
 .done {
-    background-color: blue;
+    background-color: turquoise;
 }
 
 @media (max-width: 600px) {
