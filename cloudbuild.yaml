@@ -12,6 +12,8 @@
    - 'run'
    - 'deploy'
    - 'helloworld-run'
+   - '--allow-unauthenticated'
+   - '--service-account=${_SERVICE_ACCOUNT_EMAIL}'
    - '--image'
    - 'gcr.io/$PROJECT_ID/helloworld-run:$COMMIT_SHA'
    - '--region'
